@@ -100,7 +100,7 @@ mode con cols=100 lines=20
 color 02
 
 :: All the commands are suitable for only powershell
-:: Install chocolety
+:: Install Chocolety
 SET install=""
 SET /p install=Should Install Chocolatey (y/n) [DEFAULT/ENTER 'NO']? 
 GOTO INSTALL_CHOCOLATEY
@@ -360,6 +360,20 @@ IF "%install%" == "y" (
 )
 timeout /t 3
 
+:: Install MySQL - choco
+SET install=""
+SET /p install=Should Install MySQL (y/n) [DEFAULT/ENTER 'NO']? 
+GOTO INSTALL_MYSQL
+:INSTALL_MYSQL
+IF "%install%" == "y" (
+    echo Installing MySQL
+    START /WAIT powershell -Command "choco install mysql; pause"
+    echo Installed
+) ELSE (
+    echo MYSQL INSTALLATION SKIPED
+)
+timeout /t 3
+
 :: Install Visual Studio Community & .Net Core Tools - choco
 SET install=""
 SET /p install=Should Install Visual Studio Community 2019 and .Net Core Tools (y/n) [DEFAULT/ENTER 'NO']? 
@@ -373,6 +387,48 @@ IF "%install%" == "y" (
     echo Installed
 ) ELSE (
     echo VISUAL STUDIO COMMUNITY WITH DOT NET CORE TOOLS INSTALLATION SKIPED
+)
+timeout /t 3
+
+:: Install Blender - choco
+SET install=""
+SET /p install=Should Install Blender (y/n) [DEFAULT/ENTER 'NO']? 
+GOTO INSTALL_BLENDER
+:INSTALL_BLENDER
+IF "%install%" == "y" (
+    echo Installing Blender
+    START /WAIT powershell -Command "choco install blender; pause"
+    echo Installed
+) ELSE (
+    echo BLENDER INSTALLATION SKIPED
+)
+timeout /t 3
+
+:: Install Virtual Box - choco
+SET install=""
+SET /p install=Should Install Virtual Box (y/n) [DEFAULT/ENTER 'NO']? 
+GOTO INSTALL_VIRTUALBOX
+:INSTALL_VIRTUALBOX
+IF "%install%" == "y" (
+    echo Installing Virtual Box
+    START /WAIT powershell -Command "choco install virtualbox; pause"
+    echo Installed
+) ELSE (
+    echo VIRTUAL BOX INSTALLATION SKIPED
+)
+timeout /t 3
+
+:: Install HeidiSQL - choco
+SET install=""
+SET /p install=Should Install HeidiSQL (y/n) [DEFAULT/ENTER 'NO']? 
+GOTO INSTALL_HEIDISQL
+:INSTALL_HEIDISQL
+IF "%install%" == "y" (
+    echo Installing HeidiSQL
+    START /WAIT powershell -Command "choco install heidisql; pause"
+    echo Installed
+) ELSE (
+    echo HEIDISQL INSTALLATION SKIPED
 )
 timeout /t 3
 
@@ -432,6 +488,7 @@ IF "%install%" == "y" (
     START /WAIT powershell -Command "code --install-extension formulahendry.docker-explorer"
     START /WAIT powershell -Command "code --install-extension henriiik.docker-linter"
     START /WAIT powershell -Command "code --install-extension formulahendry.docker-extension-pack"
+    START /WAIT powershell -Command "code --install-extension ms-vscode-remote.remote-wsl"
     echo Installed
 ) ELSE (
     echo VS CODE EXTENSION INSTALLATION SKIPED
