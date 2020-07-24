@@ -20,11 +20,11 @@ After windows install programming tools installation script for programmers. Fee
   - Android SDK
   - Unity 
   - Unity Hub
-  - MongoDB (Need to add Environment Veriables manually)
-  - MYSQL
+  - MongoDB (Add to Environment Veriables manually) (Install Mongo Compass From [Mongo Compass](https://www.mongodb.com/try/download/compass)) 
+  - MySQL
   - Visual Studio Community Edition with .NET Core Build Tools (only)
   - Blender
-  - HeidiSQL (SQL Tool - Use desired one)
+  - HeidiSQL (SQL Tool - Use desired one) [ALT - Dbeaver, DataGrid]
   - Virtual Box
 
 # Install
