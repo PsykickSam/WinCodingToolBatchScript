@@ -20,7 +20,7 @@ After windows install programming tools installation script for programmers. Fee
   - Android SDK
   - Unity 
   - Unity Hub
-  - MongoDB
+  - MongoDB (Need to add Environment Veriables manually)
   - MYSQL
   - Visual Studio Community Edition with .NET Core Build Tools (only)
   - Blender
