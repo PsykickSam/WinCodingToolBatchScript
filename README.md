@@ -37,6 +37,9 @@ Run the script as administrator
   - Use '--installArgs="^/DIR={desired_dir}^"' ("^(double quote in batch)^") [I tried but not working]
   - Add some thing after 'START /WAIT...' command (echo, ::, ...) anything to avoid unfortunate 
   - Goto [Chocolatey](https://chocolatey.org/) website and find desired software to install
-   
+
+# Next
+  - Uninstaller (One can create their own by only replacing 'install' to 'uninstall' in choco installation)
+
 # Cradits 
 ##### SadmanDMCX 
