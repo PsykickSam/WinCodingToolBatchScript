@@ -3,7 +3,7 @@ After windows install programming tools installation script for programmers. Fee
 
 # Included!
   - Chocolatey
-  - Visual C++ Redistributable 2005, 2008, 2010 2012, 2013, 2015, 2017, 2019
+  - Visual C++ Redistributable 2005, 2008, 2010, 2012, 2013, 2015, 2017, 2019
   - Visual Studio Code
   - WSL (Ubuntu)
   - Windows Terminal
@@ -12,7 +12,7 @@ After windows install programming tools installation script for programmers. Fee
   - Python 
   - NodeJs
   - Deno
-  - Rust (WSL) - To use on cmd/powershell download and install here, [Rust](https://www.rust-lang.org/tools/install)
+  - Rust (WSL) - [To use in cmd/powershell download and install here, [Rust](https://www.rust-lang.org/tools/install)]
   - Git
   - Intellij IDEA Community
   - Intellij Pycharm Community
