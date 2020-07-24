@@ -12,7 +12,7 @@ After windows install programming tools installation script for programmers. Fee
   - Python 
   - NodeJs
   - Deno
-  - Rust (WSL) - To use on cmd/powershell download and install from [Rust](https://www.rust-lang.org/tools/install)
+  - Rust (WSL) - To use on cmd/powershell download and install here, [Rust](https://www.rust-lang.org/tools/install)
   - Git
   - Intellij IDEA Community
   - Intellij Pycharm Community
@@ -36,6 +36,7 @@ Run the script as administrator
   - Use '-y' flag in choco to install without hit 'y' everytime 
   - Use '--installArgs="^/DIR={desired_dir}^"' ("^(double quote in batch)^") [I tried but not working]
   - Add some thing after 'START /WAIT...' command (echo, ::, ...) anything to avoid unfortunate 
+  - Goto [Chocolatey](https://chocolatey.org/) website and find desired software to install
    
 # Cradits 
 ##### SadmanDMCX 
