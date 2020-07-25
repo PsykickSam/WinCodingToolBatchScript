@@ -35,7 +35,7 @@ Run the script as administrator
 # Guides
   - Use '-y' flag in choco to install without hit 'y' everytime 
   - Use '--installArgs="^/DIR={desired_dir}^"' ("^(double quote in batch)^") [I tried but not working]
-  - Add some thing after 'START /WAIT...' command (echo, ::, ...) anything to avoid unfortunate 
+  - Add some thing after 'START /WAIT...' command (echo, ::, ...) anything to avoid unfortunate force close
   - Goto [Chocolatey](https://chocolatey.org/) website and find desired software to install
 
 # Next
