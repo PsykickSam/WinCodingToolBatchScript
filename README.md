@@ -1,5 +1,5 @@
 # Windows Coding Tools Batch Script - Install/Uninstall
-After windows install programming tools installation script for programmers. Feel free to edit it your own way, Fork and Star my repository,
+After windows install programming tools installation script for programmers. Feel free to edit it, Fork and Star my repository,
 
 # Included!
   - Chocolatey
