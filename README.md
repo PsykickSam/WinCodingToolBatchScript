@@ -1,5 +1,5 @@
 # Windows Coding Tools Batch Script - Install/Uninstall
-After windows install programming tools installation script for programmers. Feel free to edit it, Fork and Star my repository,
+After Windows installation application installer programming tools installation script for programmers. Feel free to edit, Fork and Star my repository,
 
 # Included!
   - Chocolatey
@@ -26,6 +26,7 @@ After windows install programming tools installation script for programmers. Fee
   - Blender
   - HeidiSQL (SQL Tool - Use desired one) [ALT - Dbeaver, DataGrid]
   - Virtual Box
+  - Anaconda (Python 3)
 
 # Install
 ```
