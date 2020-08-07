@@ -432,6 +432,20 @@ IF "%install%" == "y" (
 )
 timeout /t 3
 
+:: Install Anaconda (Python 3) - choco
+SET install=""
+SET /p install=Should Install Anaconda (Python 3) (y/n) [DEFAULT/ENTER 'NO']? 
+GOTO INSTALL_ANACONDA3
+:INSTALL_ANACONDA3
+IF "%install%" == "y" (
+    echo Installing Anaconda (Python 3)
+    START /WAIT powershell -Command "choco install anaconda3; pause"
+    echo Installed
+) ELSE (
+    echo ANACONDA PYTHON 3 INSTALLATION SKIPED
+)
+timeout /t 3
+
 :: VSCode Extensions - code
 SET install=""
 SET /p install=Should All the VS Code Extenstions (y/n) [DEFAULT/ENTER 'NO']? 
