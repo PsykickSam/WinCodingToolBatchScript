@@ -1,7 +1,7 @@
 :: Software Package Installer
 @echo off
 
-mode con cols=80 lines=25
+mode con cols=80 lines=25 
 color 02
 
 echo.
